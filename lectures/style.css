@@ -1,0 +1,60 @@
+body { font-family: 'Source Sans Pro'; }
+h1, h2, h3 {
+    font-family: 'Source Sans Pro';
+    font-weight: normal;
+}
+h3 {
+    margin: 8px 0px;
+}
+.remark-slide-content h1 {
+    color: #3344AA;
+    font-size: 2.4em;
+}
+.remark-code, .remark-inline-code {
+    font-family: 'Ubuntu Mono';
+}
+
+li {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+li li {
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+/* Two-column layout */
+.left-column {
+    color: #999;
+    width: 16%;
+    height: 92%;
+    float: left;
+}
+.left-column h2 {
+    color: #999;
+}
+.left-column h3:last-of-type, .left-column h3:last-child {
+    color: #333;
+}
+.right-column {
+    width: 80%;
+    float: right;
+    padding-top: 1em;
+}
+
+.remark-code {
+    font-size: 1em;
+    line-height: 1.3em;
+}
+
+.split .column-left {
+    display: block;
+    float: left;
+    width: 60%;
+}
+.split .column-right {
+    display: block;
+    float: right;
+    width: 35%;
+    padding-left: 12px;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IEMS 5703 - Lecture 1</title>
+    <meta charset="utf-8">
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic);
+        @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <textarea id="source">
+
+class: center, middle
+
+# IEMS 5703<br/>Network Programming and System Design
+
+### Lecture 2 - Computer Networks and Network Programming
+
+#### Albert Au Yeung<br/>18th January, 2017
+
+---
+
+class: center, middle
+
+# Computer Networking
+
+---
+
+# Data Communication
+
+- Exchange of data between two devices using some form of transimission medium
+- A simplified communication model is shown below:
+
+- **Protocols**: rules that govern how data is transmitted in this system
+
+---
+
+# Methods of Communication
+
+## Switching
+
+- When two computers need to communication over a network, we need to know how to connect them to each otaher
+
+---
+
+# Methods of Communication
+
+## Circuit Switching
+
+- To establish a dedicated communication link (a circuit) between two computers when they need to talk to each other
+- Before communication, a dedicated circuit is established, and all data must be transmitted through this path
+
+---
+
+# Methods of Communication
+
+## The Analog Telephone Network as a Classic Circuit Switching Example
+
+
+
+---
+
+# Methods of Communication
+
+## Packet Switching
+
+
+
+---
+
+class: center, middle
+
+# End of Lecture 2
+
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script>
+    <script>
+      var slideshow = remark.create({
+        // Set the slideshow display ratio
+        ratio: '16:9',
+
+        // Customize slide number label, either using a format string..
+        slideNumberFormat: '%current% / %total%',
+        
+        // Enable or disable counting of incremental slides in the slide counting
+        countIncrementalSlides: true
+        });
+      // Setup MathJax
+      MathJax.Hub.Config({
+          tex2jax: {
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+          }
+      });
+
+      MathJax.Hub.Configured();
+    </script>
+  </body>
+</html>

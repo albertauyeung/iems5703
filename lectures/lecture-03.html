@@ -1,0 +1,65 @@
+
+Concurrency
+------------
+
+(Ref: https://www.slideshare.net/TausunAkhtary/concurrent-parallel-programming)
+(Ref: https://www.slideshare.net/pvergain/multiprocessing-with-python-presentation)
+
+
+Running more than one tasks at the same time
+* In a time-shared manner on a single CPU core
+* In a truly parallel manner on a multi-core CPU
+
+
+Concurrency vs. Parallelism
+
+Concurrency: two or more calculations happen within the same time frame, and there is usually some sort of dependency between them
+(example: two queues with only one coffee machine)
+
+Parallelism: two or more calculations happen simultaneously
+(example: two queues on two coffee machines)
+
+
+Level of Concurrency:
+* process-based (multiple programs (processes) running concurrently)
+* thread-based (parts of the same process running concurrently)
+
+
+Challenges in Concurency
+------------------------
+* Shared resources
+* Race condition
+* Critical section
+* Deadlock
+* Starvation
+* ...
+
+
+
+Thread
+------
+
+Show thread life cycle diagram
+
+
+
+Dining Philosophers Problem
+---------------------------
+
+[Dining Philosophers Problem - Wikipedia](https://en.wikipedia.org/wiki/Dining_philosophers_problem)
+
+Five silent philosophers sit at a round table with bowls of spaghetti. Forks are placed between each pair of adjacent philosophers.
+
+Each philosopher must alternately think and eat. However, a philosopher can only eat spaghetti when they have both left and right forks. Each fork can be held by only one philosopher and so a philosopher can use the fork only if it is not being used by another philosopher. After an individual philosopher finishes eating, they need to put down both forks so that the forks become available to others. A philosopher can take the fork on their right or the one on their left as they become available, but cannot start eating before getting both forks.
+
+Eating is not limited by the remaining amounts of spaghetti or stomach space; an infinite supply and an infinite demand are assumed.
+
+The problem is how to design a discipline of behavior (a concurrent algorithm) such that no philosopher will starve; i.e., each can forever continue to alternate between eating and thinking, assuming that no philosopher can know when others may want to eat or think.
+
+
+Concurrency in Python
+---------------------
+
+https://wiki.python.org/moin/GlobalInterpreterLock
+Does it mean that we cannot benefit from multi-threading in Python?
+(consider applications with heavy I/O operations)
