@@ -32,13 +32,19 @@ trends and technologies will also be introduced.
 
 - **Lecture 01 (11 Jan)**
     - Course Introduction
-    - [Lecture slides](http://iems5703.albertauyeung.com/lectures/lecture-01.html)
+    - [Lecture slides](/lectures/lecture-01.html) | [PDF Version](/lectures/pdfs/iems5703-lecture-01.pdf)
 - **Lecture 02 (18 Jan)**
     - Computer Networking and Socket Programming
+    - [Lecture slides](/lectures/lecture-02.html) | [PDF Version](/lectures/pdfs/iems5703-lecture-02.pdf)
+    - Sample programs: [server.py](/lectures/files/server.py) | [client.py](/lectures/files/client.py)
 - **Lecture 03 (25 Jan)**
     - Concurrent Programming
+    - Lecture slides
+    - Sample programs:
 - **Lecture 04 (01 Feb)**
     - Blocking and Non-blocking I/O
+    - Lecture slides
+    - Sample programs:
 - **Lecture 05 (08 Feb)**
     - Application Level Protocols
 - <strike>(15 Feb)</strike> - (Chinese New Year)
@@ -68,13 +74,22 @@ trends and technologies will also be introduced.
     - Due Date: 20th January, 2018 (Saturday)
     - [Instructions](assignment-0)
 - **Assignment 1**
+    - Socket Programming
+    - Due Date: 10th February, 2018 (Saturday)
+    - Instructions (Coming soon)
 - **Assignment 2**
+    - Concurrent Programming
+    - Due Date: 3rd March, 2018 (Saturday)
+    - Instructions (Coming soon)
 - **Assignment 3**
+    - Asynchronous Messaging
+    - Due Date: 24th March, 2018 (Saturday)
 
 ---
 
 ## Mini Project
 
+- Details coming soon
 
 
 ---
