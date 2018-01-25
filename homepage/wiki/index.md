@@ -39,8 +39,11 @@ trends and technologies will also be introduced.
     - Sample programs: [server.py](/lectures/files/server.py) | [client.py](/lectures/files/client.py)
 - **Lecture 03 (25 Jan)**
     - Concurrent Programming
-    - Lecture slides
-    - Sample programs:
+    - [Lecture slides](/lectures/lecture-03.html)
+    - References:
+        - [Understanding the Python GIL](http://www.dabeaz.com/python/UnderstandingGIL.pdf) by David Beazley (PyCon 2010)
+        - [Python Cookbook: Concurrency](https://www.oreilly.com/learning/python-cookbook-concurrency)
+        - [Python Concurrency from the Group up](http://pyvideo.org/pycon-us-2015/python-concurrency-from-the-ground-up-live.html) by David Beazley (PyCon 2015)
 - **Lecture 04 (01 Feb)**
     - Blocking and Non-blocking I/O
     - Lecture slides
@@ -76,7 +79,7 @@ trends and technologies will also be introduced.
 - **Assignment 1**
     - Socket Programming
     - Due Date: 10th February, 2018 (Saturday)
-    - Instructions (Coming soon)
+    - [Instructions](assignment-1)
 - **Assignment 2**
     - Concurrent Programming
     - Due Date: 3rd March, 2018 (Saturday)
@@ -84,6 +87,7 @@ trends and technologies will also be introduced.
 - **Assignment 3**
     - Asynchronous Messaging
     - Due Date: 24th March, 2018 (Saturday)
+    - Instructions (Coming soon)
 
 ---
 
