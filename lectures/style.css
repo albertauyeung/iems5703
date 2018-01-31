@@ -14,6 +14,7 @@ h3 {
     font-family: 'Ubuntu Mono';
     font-size: 1.1em;
     line-height: 1.25em;
+    border: 1px solid #BCBCBC;
 }
 .remark-inline-code {
     font-family: 'Ubuntu Mono';
@@ -47,6 +48,19 @@ li li {
     width: 80%;
     float: right;
     padding-top: 1em;
+}
+
+.equal-split .column-left{
+    display: block;
+    float: left;
+    width: 45%;
+    padding-right: 6px;
+}
+.equal-split .column-right{
+    display: block;
+    float: right;
+    width: 45%;
+    padding-left: 6px;
 }
 
 .split .column-left {

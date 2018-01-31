@@ -39,30 +39,34 @@ trends and technologies will also be introduced.
     - Sample programs: [server.py](/lectures/files/server.py) | [client.py](/lectures/files/client.py)
 - **Lecture 03 (25 Jan)**
     - Concurrent Programming
-    - [Lecture slides](/lectures/lecture-03.html)
+    - [Lecture slides](/lectures/lecture-03.html) | [PDF Version](/lectures/pdfs/iems5703-lecture-03.pdf)
     - References:
         - [Understanding the Python GIL](http://www.dabeaz.com/python/UnderstandingGIL.pdf) by David Beazley (PyCon 2010)
         - [Python Cookbook: Concurrency](https://www.oreilly.com/learning/python-cookbook-concurrency)
         - [Python Concurrency from the Group up](http://pyvideo.org/pycon-us-2015/python-concurrency-from-the-ground-up-live.html) by David Beazley (PyCon 2015)
 - **Lecture 04 (01 Feb)**
     - Blocking and Non-blocking I/O
-    - Lecture slides
-    - Sample programs:
+    - [Lecture slides](/lectures/lecture-04.html) | [PDF Version](/lectures/pdfs/iems5703-lecture-04.pdf)
+    - References:
+        - [PEP 342 - Coroutines via Enhanced Generators](https://www.python.org/dev/peps/pep-0342/)
+        - [A Curious Course on Coroutines and Concurrency](http://www.dabeaz.com/coroutines/)
 - **Lecture 05 (08 Feb)**
-    - Application Level Protocols
+    - HTTP and Web Servers
+    - Lecture slides
 - <strike>(15 Feb)</strike> - (Chinese New Year)
 - **Lecture 06 (22 Feb)**
-    - HTTP and Web Servers
-- **Lecture 07 (01 Mar)
-    - Databases
-- **Lecture 08 (08 Mar)**
+    - Websockets and Socket.io
+    - Lecture slides
+- **Lecture 07 (01 Mar)**
     - Asynchronous Tasks and Message
-- **Lecture 09 (15 Mar)**
-    - Stream Servers and Multi-casting
-- **Lecture 10 (22 Mar)**
-    - Socket.io and Bi-directional Communications
-- **Lecture 11 (29 Mar)**
+- **Lecture 08 (08 Mar)**
     - Web Scraping and HTML Parsing
+- **Lecture 09 (15 Mar)**
+    - Database and Caches
+- **Lecture 10 (22 Mar)**
+    - Stream Servers and Multi-casting
+- **Lecture 11 (29 Mar)**
+    - Other Application Protocols
 - <strike>(05 Apr)</strike> - (Ching Ming Festival)
 - **Lecture 12 (12 Apr)**
     - Deploying Machine Learning Services
@@ -93,8 +97,7 @@ trends and technologies will also be introduced.
 
 ## Mini Project
 
-- Details coming soon
-
+- See [Project Details](project)
 
 ---
 
