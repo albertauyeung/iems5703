@@ -222,8 +222,6 @@ executor = ThreadPoolExecutor(max_workers=5)
 
 while True:
     (client_socket, address) = server_socket.accept()
-    client_thread = ClientServingThread(client_socket, address)
-    client_thread.daemon = True
 
     # Submit a target function 'serve_client' with arguments to
     # the executor (note we cannot use the subclass defined above)

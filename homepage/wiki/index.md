@@ -51,25 +51,30 @@ trends and technologies will also be introduced.
         - [PEP 342 - Coroutines via Enhanced Generators](https://www.python.org/dev/peps/pep-0342/)
         - [A Curious Course on Coroutines and Concurrency](http://www.dabeaz.com/coroutines/)
 - **Lecture 05 (08 Feb)**
-    - HTTP and Web Servers
+    - Asyncio / HTTP
     - Lecture slides
 - <strike>(15 Feb)</strike> - (Chinese New Year)
 - **Lecture 06 (22 Feb)**
-    - Websockets and Socket.io
+    - HTTP Servers and Websocket
     - Lecture slides
 - **Lecture 07 (01 Mar)**
-    - Asynchronous Tasks and Message
-- **Lecture 08 (08 Mar)**
     - Web Scraping and HTML Parsing
+    - Lecture slides
+- **Lecture 08 (08 Mar)**
+    - Asynchronous Tasks and Message
+    - Lecture slides
 - **Lecture 09 (15 Mar)**
     - Database and Caches
+    - Lecture slides
 - **Lecture 10 (22 Mar)**
-    - Stream Servers and Multi-casting
+    - File Streaming / Multi-casting
+    - Lecture slides
 - **Lecture 11 (29 Mar)**
-    - Other Application Protocols
+    - TBC
 - <strike>(05 Apr)</strike> - (Ching Ming Festival)
 - **Lecture 12 (12 Apr)**
-    - Deploying Machine Learning Services
+    - Scalability of Network Applications
+    - Lecture slides
 - **(26 Apr) - Final Examination**
 
 ---
