@@ -52,7 +52,10 @@ trends and technologies will also be introduced.
         - [A Curious Course on Coroutines and Concurrency](http://www.dabeaz.com/coroutines/)
 - **Lecture 05 (08 Feb)**
     - Asyncio / HTTP
-    - Lecture slides
+    - [Lecture slides](/lectures/lecture-05.html) | [PDF Version](/lectures/pdfs/iems5703-lecture-05.pdf)
+    - References:
+        - [asyncio Documentation](http://asyncio.readthedocs.io/en/latest/)
+        - [asyncio — Asynchronous I/O, event loop, and concurrency tools](https://pymotw.com/3/asyncio/)
 - <strike>(15 Feb)</strike> - (Chinese New Year)
 - **Lecture 06 (22 Feb)**
     - HTTP Servers and Websocket
@@ -85,18 +88,22 @@ trends and technologies will also be introduced.
     - Basic Python Programming
     - Due Date: 20th January, 2018 (Saturday)
     - [Instructions](assignment-0)
+    - 5% of final grade
 - **Assignment 1**
     - Socket Programming
     - Due Date: 10th February, 2018 (Saturday)
     - [Instructions](assignment-1)
+    - 10% of final grade
 - **Assignment 2**
-    - Concurrent Programming
+    - A Multi-process TCP Server
     - Due Date: 3rd March, 2018 (Saturday)
-    - Instructions (Coming soon)
+    - [Instructions](assignment-2)
+    - 10% of final grade
 - **Assignment 3**
     - Asynchronous Messaging
     - Due Date: 24th March, 2018 (Saturday)
     - Instructions (Coming soon)
+    - 10% of final grade
 
 ---
 
