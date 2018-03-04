@@ -111,7 +111,7 @@ In Tensorflow, computation happends in a **graph**. When using multi-threading w
 Firstly, in each child process, create a variable that wholes the default graph in tensorflow:
 
     :::python
-    import tensor as tf
+    import tensorflow as tf
     ...
     graph = tf.get_default_graph()
 

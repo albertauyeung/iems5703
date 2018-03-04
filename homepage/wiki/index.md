@@ -58,26 +58,35 @@ trends and technologies will also be introduced.
         - [asyncio — Asynchronous I/O, event loop, and concurrency tools](https://pymotw.com/3/asyncio/)
 - <strike>(15 Feb)</strike> - (Chinese New Year)
 - **Lecture 06 (22 Feb)**
-    - HTTP Servers and Websocket
-    - Lecture slides
+    - Web and Application Servers
+    - [Lecture slides](/lectures/lecture-06.html) | [PDF Version](/lectures/pdfs/iems5703-lecture-06.pdf)
+    - References:
+        - [The Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
 - **Lecture 07 (01 Mar)**
-    - Web Scraping and HTML Parsing
-    - Lecture slides
+    - WebSocket
+    - [Lecture slides](/lectures/lecture-07.html) | [PDF Version](/lectures/pdfs/iems5703-lecture-07.pdf)
+    - Sample Programs:
+        - Broadcast: [broadcast_server.py](/lectures/files/broadcast_server.py), [broadcast_client.py](/lectures/files/broadcast_client.py)
+        - Consumer/Producer: [cp_server.py](/lectures/files/cp_server.py), [cp_client.py](/lectures/files/cp_client.py)
 - **Lecture 08 (08 Mar)**
-    - Asynchronous Tasks and Message
-    - Lecture slides
-- **Lecture 09 (15 Mar)**
     - Database and Caches
     - Lecture slides
-- **Lecture 10 (22 Mar)**
-    - File Streaming / Multi-casting
+- **Lecture 09 (15 Mar)**
+    - Asynchronous Tasks and Message
     - Lecture slides
-- **Lecture 11 (29 Mar)**
-    - TBC
-- <strike>(05 Apr)</strike> - (Ching Ming Festival)
-- **Lecture 12 (12 Apr)**
+- **Lecture 10 (22 Mar)**
     - Scalability of Network Applications
     - Lecture slides
+- <strike>(29 Mar)</strike> - (Lecture Cancelled)
+- <strike>(05 Apr)</strike> - (Ching Ming Festival)
+- **Lecture 11 (12 Mar)**
+    - Web Scraping
+    - Lecture slides
+- **Lecture 12 (19 Apr)**
+    - More Network Programming Examples
+    - Lecture slides
+    - (No attendance will be taken)
+    - (Materials will not appear in the final examination)
 - **(26 Apr) - Final Examination**
 
 ---
@@ -100,9 +109,9 @@ trends and technologies will also be introduced.
     - [Instructions](assignment-2)
     - 10% of final grade
 - **Assignment 3**
-    - Asynchronous Messaging
+    - An HTTP-based Movie Search Engine
     - Due Date: 24th March, 2018 (Saturday)
-    - Instructions (Coming soon)
+    - [Instructions](assignment-3)
     - 10% of final grade
 
 ---

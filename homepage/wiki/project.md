@@ -35,4 +35,8 @@ You should submit the following
 
 ## Accessment Scheme
 
-TBC
+- 30%: Network programming (use of networking protocols)
+- 30%: Concurrent programming (use of multiprocessing, multithreading)
+- 20%: System design (supporting multiple clients, efficiency, organization)
+- 10%: Robustness (how well do you handle errors)
+- 10%: Interestingness / Creativity
