@@ -37,7 +37,7 @@ The server should be implemented using the [Flask](http://flask.pocoo.org/) Web 
     - Return **at most 10 results**
     - Query string parameters:
         - `query`: the query string specified by the user
-        - `attribute`: the attribute in which the query string should appear. This must be one of the following: **title**, **actor** or **both**.
+        - `attribute`: the attribute in which the query string should appear. This must be one of the following: **title**, **actor** or **both**. If it is **both**, it means the query should either appear in the title or in the actor field.
         - `sortby`: specify how the results should be sorted. This must be one of the following: **year**, **revenue** or **rating**
         - `order`: the order in which results should be sorted. This must be one of the following: **ascending** or **descending**
 * `GET: /movie/<movie_id>`
@@ -89,7 +89,7 @@ Search Example 1: (not all results are shown)
 Search Example 2: (not all results are shown)
 
     :::javascript
-    Request: /search?query=&attribute=title&sortby=year&order=descending
+    Request: /search?query=leonardo&attribute=actor&sortby=rating&order=descending
 
     Response:
     {

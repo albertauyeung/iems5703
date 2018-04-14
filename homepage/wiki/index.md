@@ -69,19 +69,22 @@ trends and technologies will also be introduced.
         - Broadcast: [broadcast_server.py](/lectures/files/broadcast_server.py), [broadcast_client.py](/lectures/files/broadcast_client.py)
         - Consumer/Producer: [cp_server.py](/lectures/files/cp_server.py), [cp_client.py](/lectures/files/cp_client.py)
 - **Lecture 08 (08 Mar)**
-    - Database and Caches
-    - Lecture slides
+    - Databases
+    - [Lecture slides](/lectures/lecture-08.html) | [PDF Version](/lectures/pdfs/iems5703-lecture-08.pdf)
 - **Lecture 09 (15 Mar)**
-    - Asynchronous Tasks and Message
-    - Lecture slides
+    - MongoDB / Asynchronous Tasks
+    - [Lecture slides](/lectures/lecture-09.html) | [PDF Version](/lectures/pdfs/iems5703-lecture-09.pdf)
 - **Lecture 10 (22 Mar)**
     - Scalability of Network Applications
-    - Lecture slides
+    - [Lecture slides](/lectures/lecture-10.html) | [PDF Version](/lectures/pdfs/iems5703-lecture-10.pdf)
+    - References:
+        - High Scalability [http://highscalability.com](http://highscalability.com/)
+        - [Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html)
 - <strike>(29 Mar)</strike> - (Lecture Cancelled)
 - <strike>(05 Apr)</strike> - (Ching Ming Festival)
 - **Lecture 11 (12 Mar)**
     - Web Scraping
-    - Lecture slides
+    - [Lecture slides](/lectures/lecture-11.html) | [PDF Version](/lectures/pdfs/iems5703-lecture-11.pdf)
 - **Lecture 12 (19 Apr)**
     - More Network Programming Examples
     - Lecture slides
